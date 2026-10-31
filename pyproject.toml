@@ -1,0 +1,28 @@
+[project]
+name = "swotdatatools"
+version = "0.0.1"
+description = "tools for accessing SWOT L3 data through dask/xarray"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Alan Whelan", email = "alanwhln3@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+dependencies = [
+    "requests>=2.28.0",
+    "pandas>=2.0.0",
+    "xarray",
+    "pydap",
+    "numpy",
+    "altimetry-search",
+    "dask",
+    "xesmf",
+    "cmocean",
+    "siphon",
+    "pyinterp",
+]
